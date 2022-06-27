@@ -34,12 +34,15 @@ img1.src = imgUrl1;
 document.body.appendChild(img1);
 
 // 测试数据
-class App {
-  static a = 123;
-}
+//class App {
+// static a = 123;
+//}
 
-console.log(App.a);
+//console.log(App.a);
 
 import './assets/fonts/iconfont.css';
 
-import './app.vue';
+import { createApp } from 'vue';
+import App from './app.vue';
+const app = createApp(App);
+app.mount('#app');

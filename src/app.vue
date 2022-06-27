@@ -1,7 +1,7 @@
 // App.vue
 
 <template>
-  <div>App</div>
+  <div id="app">App</div>
 </template>
 
 <script>
