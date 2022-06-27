@@ -42,4 +42,4 @@ console.log(App.a);
 
 import './assets/fonts/iconfont.css';
 
-// import './app.vue';
+import './app.vue';

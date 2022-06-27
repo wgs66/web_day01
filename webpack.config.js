@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // 引入自动清空插件
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 // 引入vue处理插件
-// const { VueLoaderPlugin } = require('vue-loader');
+const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
   // 处理警告
