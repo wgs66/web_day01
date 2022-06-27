@@ -1,0 +1,18 @@
+{
+  "name": "vue_day01_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wgs66/web_day01.git",
+  "author": "wgs66 <707205590@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
